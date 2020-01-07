@@ -1,7 +1,7 @@
 main(List<String> args) {
   var mic = new Microphone("blue yeti",'silver',20 );
   var micSecond = new Microphone.initialize();
-  print(micSecond.model);
+  print(micSecond.model); //using the named  constructor
 
   // print(mic.color);
   mic.setVolume();
